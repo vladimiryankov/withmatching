@@ -24,7 +24,7 @@ public class Main extends Application {
 			System.out.println("Loading ДБ...");
 			
 			MySQLDAO dao = new MySQLDAO();
-			dao.readDataBase();
+			dao.testDataBase(); //should print out the first question
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
